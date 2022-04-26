@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+<style>
+
+body {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #0358AF;
+}
+
+h1 {
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+	text-shadow: 1px 1px gray;
+}
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: white;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+</style>
+
+</head>
+<body>
+<h1 align="center">Cars</h1>
+<button style="position: absolute; top: 30px; left: 0px">
+  <a href="main.html">
+    <img src="https://www.freepnglogos.com/uploads/logo-home-png/home-transparent-home-images-10.png" width="50" height="50">
+  </a>
+</button>
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Options</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="cars.html">Cars</a>
+    <a href="suvs.html">Suvs</a>
+    <a href="trucks.html">Trucks</a>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+</script>
+<a href="electriccars.html">
+  <button style="position: absolute; bottom:30px; right:100px">electric Cars</button>
+</a>
+
+</body>
+
+</html>
