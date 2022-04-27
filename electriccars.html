@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <style>
 
 body {
@@ -18,16 +19,98 @@ h1 {
 	font-weight: bold;
 	text-shadow: 1px 1px gray;
 }
+
+<!-- Vehicle Style -->
+.container .box {
+                width:100%;
+                height:auto;
+                margin:50px;
+                display:table;
+            }
+            .container .box .box-row {
+                display:table-row;
+            }
+            .container .box .box-cell {
+                display:table-cell;
+                width:25%;
+                padding:10px;
+            }
+            .container .box .box-cell.box1 {
+                background:#6699ff;
+                text-align:center;
+                border: 1px solid white;
+            }
+            .container .box .box-cell.box2 {
+                background:#6699ff;
+                text-align:center;
+                border: 1px solid white;
+            }
+            .container .box .box-cell.box3 {
+                background:#6699ff;
+                text-align:center;
+                border: 1px solid white;
+            }
+            .container .box .box-cell.box4 {
+                background:#6699ff;
+                text-align:center;
+                border: 1px solid white;
+            }
+<!-- End of Vehicle Style -->
+
 </style>
 
 </head>
 <body>
 <h1 align="center">Electric Cars</h1>
 <button style="position: absolute; top: 30px; left: 0px">
-  <a href="main.html">
+  <a href="index.html">
     <img src="https://www.freepnglogos.com/uploads/logo-home-png/home-transparent-home-images-10.png" width="50" height="50">
   </a>
 </button>
+
+<h2></h2>
+<h2></h2>
+
+<!-- Vehicles -->
+<div class="container">
+<div class="box">
+<div class="box-row">
+<div class="box-cell box1">
+        <img src="images/TeslaModel3.png" style="width:90%; text-align:center;">
+        <h5 class="card-title">2022 Tesla Model 3</h5>
+        <p>MSRP: From $46,990<br>
+        Range: 272 to 358 miles battery-only</p>
+        <a class="btn btn-primary">Buy Car</a>
+</div>
+
+<div class="box-cell box2" style="left:50px;">
+        <img src="./images/KiaEV6.png" style="width:90%; text-align:center;">
+        <h5 class="card-title">2022 Kia EV6</h5>
+        <p>MSRP: From $40,900<br>
+        Range: 232 to 310 miles battery-only</p>
+        <a class="btn btn-primary">Buy Car</a>
+</div>
+
+<div class="box-cell box3" style="left:50px;">
+        <img src="./images/ChevyBoltEV.png" style="width:90%; text-align:center">
+        <h5 class="card-title">2022 Chevrolet Bolt EV</h5>
+        <p>MSRP: From $31,500<br>
+        Range: 259 miles battery-only</p>
+        <a class="btn btn-primary">Buy Car</a>
+</div>
+
+<div class="box-cell box4" style="left:50px;">
+        <img src="./images/Polestar2.png" style="width:90%; text-align:center">
+        <h5 class="card-title">2022 Polestar 2</h5>
+        <p>MSRP: From $45,900<br>
+        Range: 249 to 270 miles battery-only</p>
+        <a class="btn btn-primary">Buy Car</a>
+</div>
+
+</div>
+</div>
+</div>
+<!-- End of Vehicles -->
 
 
 <a href="cars.html">
