@@ -1,5 +1,5 @@
 These are the files to the project 
-you can run this on your local host by copying the folders and running it 
+you can run this on locally by copying the folders and running it 
 using any text editor or how you run html code.
 The website is also hosted at
 https://jzheng100823.github.io/hicproj/.
