@@ -1,4 +1,4 @@
-These are the files for HIC Project Part 2.
+These are the files for the HIC Project Part 2.
 You can run this locally by copying the folders and using any text editor or how you run html code.
 The website is also hosted at
 https://jzheng100823.github.io/hicproj/.
